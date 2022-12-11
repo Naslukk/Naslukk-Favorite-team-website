@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    font-family:'Bebas Neue', cursive;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 100vh;
+background: linear-gradient(
+    90deg, rgba(255,220,2,0), rgba(231,215,9,0.4) , rgba(191,207,21,0.5) , rgba(172,203,27,1)),
+ url(images/brazilfan.png) center center fixed;
+ background-size: cover;
+;
+    padding: 10px;
+    height: auto;
+}
+.main-sec{
+    height: 100vh;
+}
+.navbar{
+    background-color:rgba(232, 229, 229, 0.3) ;
+}
+.main{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.logo-img{
+    width: 20%;
+}
+.main-head{
+    font-size: 150px;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12)
+    0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-bottom: 50px;
+}
+.about {
+    padding: 10px;
+    border: #ffffff solid 2px;
+}
+.card-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Media queries */
+@media only screen and (max-width: 480px) {
+    .logo-img{
+        width: 150px;
+    }
+}
